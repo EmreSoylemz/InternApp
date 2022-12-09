@@ -17,15 +17,9 @@ function Skills() {
           />
         </View>
         <View>
-          <Text style={[styles.bottomContext, {fontWeight: '700'}]}>
-            {user.skills[0]}
-          </Text>
-          <Text style={[styles.bottomContext, {fontWeight: '700'}]}>
-            {user.skills[1]}
-          </Text>
-          <Text style={[styles.bottomContext, {fontWeight: '700'}]}>
-            {user.skills[2]}
-          </Text>
+          <Text style={styles.bottomContext}>{user.skills[0]}</Text>
+          <Text style={styles.bottomContext}>{user.skills[1]}</Text>
+          <Text style={styles.bottomContext}>{user.skills[2]}</Text>
         </View>
       </View>
     </View>
@@ -55,7 +49,7 @@ const styles = StyleSheet.create({
   },
 
   bottomContext: {
-    fontWeight: '500',
+    fontWeight: '700',
     marginHorizontal: 8,
     fontSize: 15,
     lineHeight: 20,

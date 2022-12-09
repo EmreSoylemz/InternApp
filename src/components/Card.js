@@ -2,7 +2,6 @@ import {useNavigation} from '@react-navigation/native';
 import React from 'react';
 import {View, Text, Image, StyleSheet, TouchableOpacity} from 'react-native';
 import {windowWidth} from '../constants/Dimensions';
-import UserProfile from '../screens/UserProfile';
 
 function Card({user}) {
   const navigation = useNavigation();

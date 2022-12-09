@@ -7,9 +7,8 @@ import {
   Image,
   TouchableOpacity,
   ScrollView,
-  Dimensions,
 } from 'react-native';
-import {windowWidth, windowHeight} from '../constants/Dimensions';
+import {windowWidth} from '../constants/Dimensions';
 import Education from '../components/Education';
 import Experience from '../components/Experience';
 import Skills from '../components/Skills';
@@ -51,7 +50,7 @@ function UserProfile() {
           </View>
         </View>
       </View>
-      <View style={{borderWidth: 1, borderColor: '#e8e8e8', marginTop: 40}} />
+      <View style={{borderWidth: 1, borderColor: '#e8e8e8', marginTop: 20}} />
       <ScrollView bottomViewWrapper>
         <About />
         <Education />

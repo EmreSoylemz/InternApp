@@ -22,7 +22,7 @@ function MyTabs() {
   );
 }
 function MyStack() {
-  return <Stack.Screen name="lol" component={UserProfile} />;
+  return <Stack.Screen name="UserProfile" component={UserProfile} />;
 }
 
 export default function App() {
